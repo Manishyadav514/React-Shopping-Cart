@@ -5,6 +5,7 @@ import CheckOutPage from "./components/CheckOutPage.js";
 import Products from "./components/ProductPage.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WishListPage from "./components/WishListPage.js";
+import "./BootstrapCart.css";
 
 function main() {
   return (

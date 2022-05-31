@@ -3,7 +3,6 @@ import { AiFillDelete } from "react-icons/ai";
 import { CartState } from "../context/Context.js";
 const CartCard = (props) => {
   const {
-    state: { cart },
     dispatch,
   } = CartState();
   // console.log("CartCard", cart);
@@ -14,7 +13,7 @@ const CartCard = (props) => {
       <div className="cart-item-details">
         <div className="cart-product-title">{props.product.name}</div>
         <div className="cart-product-price">
-          Rs {props.product.price.split(".")[0]}
+          Rs {props.product.price}
         </div>
       </div>
 

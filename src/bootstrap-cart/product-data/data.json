@@ -1,0 +1,179 @@
+[
+    {
+        "id": "1",
+        "name": "HERE&NOW",
+        "image": "https://i.ibb.co/55cwBpP/2.png",
+        "price": 300,
+        "inStock": 2,
+        "description": "Smooth comfortable product",
+        "fastDelivery": true,
+        "ratings": 4,
+        "lateDelivery": 2        
+
+    },
+    {
+        "id": "2",
+        "name": "Calvin Klein Jeans",
+        "image": "https://i.ibb.co/NNd5wmc/1.png",
+        "price": 250,
+        "inStock": 0,
+        "description": "Cotton, foldable",
+        "fastDelivery": false,
+        "ratings": 5,
+        "lateDelivery": 5
+    },
+    {
+        "id": "3",
+        "name": "Moda Rapido",
+        "image": "https://i.ibb.co/wQzRVJM/3.png",
+        "price": 304,
+        "inStock": 1,
+        "description": "No one can find this type",
+        "fastDelivery": true,
+        "ratings": 2,
+        "lateDelivery": 1
+    },
+    {
+        "id": "4",
+        "name": "Roadster",
+        "image": "https://i.ibb.co/Fh2Bv0D/4.png",
+        "price": 400,
+        "inStock": 0,
+        "description": "You can't afford it",
+        "fastDelivery": true,
+        "ratings": 5,
+        "lateDelivery": 2
+    },
+    {
+        "id": "5",
+        "name": "Difference of Opinion",
+        "image": "https://i.ibb.co/Vq5KDbx/5.png",
+        "price": 300,
+        "inStock": 2,
+        "description": "Wear or not, it's your choice",
+        "fastDelivery": false,
+        "ratings": 1,
+        "lateDelivery": 10
+    },
+    {
+        "id": "6",
+        "name": "H&M",
+        "image": "https://i.ibb.co/X867M8m/6.png",
+        "price": 306,
+        "inStock": 5,
+        "description": "Smooth comfortable product",
+        "fastDelivery": true,
+        "ratings": 4,
+        "lateDelivery": 3
+    },
+    {
+        "id": "7",
+        "name": "Roadster",
+        "image": "https://i.ibb.co/YcdG2pK/7.png",
+        "price": 390,
+        "inStock": 1,
+        "description": "Silky",
+        "fastDelivery": false,
+        "ratings": 4,
+        "lateDelivery": 13
+    },
+    {
+        "id": "8",
+        "name": "FIFO DIDO",
+        "image": "https://i.ibb.co/FbC6z7C/8.png",
+        "price": 450,
+        "inStock": 3,
+        "description": "real, authentic product",
+        "fastDelivery": false,
+        "ratings": 3,
+        "lateDelivery": 3
+    },
+    {
+        "id": "9",
+        "name": "Roadster",
+        "image": "https://i.ibb.co/xg6vqVd/9.png",
+        "price": 320,
+        "inStock": 2,
+        "description": "No mercy",
+        "fastDelivery": false,
+        "ratings": 3,
+        "lateDelivery": 7
+    },
+    {
+        "id": "10",
+        "name": "HERE&NOW",
+        "image": "https://i.ibb.co/wzzghxL/10.png",
+        "price": 300.90,
+        "inStock": 2,
+        "description": "It's your turn to buy",
+        "fastDelivery": true,
+        "ratings": 5,
+        "lateDelivery": 2
+    },
+    {
+        "id": "11",
+        "name": "jack & jones",
+        "image": "https://i.ibb.co/jZ11DSd/11.png",
+        "price": 100,
+        "inStock": 1,
+        "description": "Light weight",
+        "fastDelivery": true,
+        "ratings": 4,
+        "lateDelivery": 2
+    },
+    {
+        "id": "12",
+        "name": "Roadster",
+        "image": "https://i.ibb.co/SK6pX6B/12.png",
+        "price": 200,
+        "inStock": 1,
+        "description": "New in stock",
+        "fastDelivery": false,
+        "ratings": 1,
+        "lateDelivery": 12
+    },
+    {
+        "id": "13",
+        "name": "Roadster",
+        "image": "https://i.ibb.co/gDKrGxY/13.png",
+        "price": 450,
+        "inStock": 5,
+        "description": "You friends will definitely like it",
+        "fastDelivery": false,
+        "ratings": 3,
+        "lateDelivery": 10
+    },
+    {
+        "id": "14",
+        "name": "Calvin Klein Jeans",
+        "image": "https://i.ibb.co/w6QGNv9/14.png",
+        "price": 500,
+        "inStock": 1,
+        "description": "Manish's choice",
+        "fastDelivery": false,
+        "ratings": 1,
+        "lateDelivery": 8
+    },
+    {
+        "id": "15",
+        "name": "Maniac",
+        "image": "https://i.ibb.co/5BtcNN8/15.png",
+        "price": 203,
+        "inStock": 3,
+        "description": "buy it without hustle",
+        "fastDelivery": true,
+        "ratings": 3,
+        "lateDelivery": 3
+    },
+    {
+        "id": "16",
+        "name": "HERE&NOW",
+        "image": "https://i.ibb.co/xDcvk2V/16.png",
+        "price": 300.90,
+        "inStock": 0,
+        "description": "Last and effortless",
+        "fastDelivery": true,
+        "ratings": 4,
+        "lateDelivery": 1
+    }
+]

@@ -36,7 +36,7 @@ const CheckOutPage = () => {
       cart.reduce((acc, curr) => acc + Number(curr.price*curr.qty), 0)
     );
   }, [cart]);
-  console.log(cart);
+  // console.log(cart);
   // console.log(total);
 
   return (
@@ -45,7 +45,7 @@ const CheckOutPage = () => {
         <div className="checkout-product-container">
           <ListGroup>
             {cart.map((product) => (
-              <ListGroup.Item>
+              <ListGroup.Item key={product.id}>
                 <Row>
                   <Col md={2}>
                     <Image

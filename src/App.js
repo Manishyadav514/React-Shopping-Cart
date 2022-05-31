@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className="cart-navbar">
-          <span href="/">React-Shopping-Cart</span>
+          <span href="/" >React Shopping Cart</span>
         
         <div className="cart-toggle">
           <Form>

@@ -2,6 +2,7 @@ import React from "react";
 import { CartState } from "../context/Context.js";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { ListGroup, Row, Col, Image } from "react-bootstrap";
+import "../BootstrapCart.css";
 
 import Rating from "./Rating.js";
 import {Link} from "react-router-dom";
@@ -61,7 +62,7 @@ const WishListPage = () => {
             </Row>
           </ListGroup.Item>
         ))}
-      </ListGroup></div> : <Link to="/"><div className="wishlist-button">Wishlist is Empty, Add some Products!</div></Link>
+      </ListGroup></div> : <Link to="/"><div className="wishlist-button-text">Wishlist is Empty, Add some Products!</div></Link>
       }
 
       

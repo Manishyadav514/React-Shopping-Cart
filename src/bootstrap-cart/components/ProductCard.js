@@ -14,7 +14,8 @@ const ProductCard = (props) => {
     state: { cart, wishlist },
     dispatch,
   } = CartState();
-  console.log(cart);
+
+  // console.log(cart);
 
   return (
     <div>
@@ -23,10 +24,10 @@ const ProductCard = (props) => {
         <Card.Body>
           <Card.Title>{props.product.name}</Card.Title>
           {/* <p>{props.product.description}</p> */}
-          <Card.Text>{props.product.department}</Card.Text>
+          <Card.Text>{props.product.description}</Card.Text>
           <ListGroup variant="flush">
             <Rating rating={props.product.ratings} />
-            <span>Rs {props.product.price.split(".")[0]}</span>
+            <span>Rs {props.product.price}</span>
             <span>
               {props.product.fastDelivery ? (
                 <div>Fast Delivery</div>

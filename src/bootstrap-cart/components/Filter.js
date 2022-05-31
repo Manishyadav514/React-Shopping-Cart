@@ -12,10 +12,9 @@ export const Filter = () => {
 
   return (
     <div className="filters">
-      <div className="filter-container-box">
         <span className="title">Filter Products</span>
         <span>
-          <Form className="d-flex" >
+          <Form  >
             <FormControl
               size="sm"
               type="search"
@@ -121,6 +120,5 @@ export const Filter = () => {
           Clear Filters
         </Button>
       </div>
-    </div>
   );
 };
