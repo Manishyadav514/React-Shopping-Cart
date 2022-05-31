@@ -1,0 +1,41 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 15px;
+  text-align: center;
+  padding: 1% 10%;
+  height: 60px;
+}
+
+.grid-item-active {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+.grid-item-deactive {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+.cart-navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 5px;
+  background-color: #212529;
+  color: white;
+}
+.cart-navbar > span {
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+.cart-toggle {
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .cart-navbar > span {
+        font-size: 20px;
+        font-weight: 300;
+      }
+  }
